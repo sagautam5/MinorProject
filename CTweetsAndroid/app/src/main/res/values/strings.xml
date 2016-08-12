@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CTweets</string>
+    <string name="app_name_bold">CTweets</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="SignUp">or Sign Up</string>
+    <string name="LogInButton">Log In</string>
+    <string name="Email">E-mail</string>
+    <string name="title_activity_activity_loginactivity">activity_loginactivity</string>
+    <string name="FootNote">All Rights Reserved.</string>
+    <string name="email">Username</string>
+    <string name="password">Password</string>
+    <string name="reload">Reload</string>
+</resources>
+

@@ -1,0 +1,14 @@
+<resources>
+
+
+    <style name="AppTheme" parent="android:Theme.Holo">
+    </style>
+
+
+
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light">-->
+
+    <!--</style>-->
+
+
+</resources>

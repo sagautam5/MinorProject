@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.application001.subversiveavi.application001.MainActivity"
+    android:background="#000000">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="45dp"
+        android:typeface="monospace"
+        android:text="@string/app_name_bold"
+        android:id="@+id/HeaderTextView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:hint="@string/email"
+        android:id="@+id/main_username_editText"
+        android:width="320dp"
+        android:autoText="false"
+        android:capitalize="none"
+        android:layout_above="@+id/main_password_editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="46dp"
+        android:background="#A0A0A0"
+        android:textColor="#2F2F2F"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:hint="@string/password"
+        android:id="@+id/main_password_editText"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:width="320dp"
+        android:background="#A0A0A0"
+        android:textColor="#2F2F2F"
+        android:shadowColor="@color/accent_material_dark" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/batmanbutonn"
+        android:id="@+id/main_sendGetReq_button"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/main_password_editText"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/FootNote"
+        android:id="@+id/FooterTextViewextView"
+        android:textSize="14dp"
+        android:capitalize="none"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@mipmap/logo_ctweets"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/HeaderTextView"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
